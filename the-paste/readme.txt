@@ -3,9 +3,9 @@ Contributors: podpirate
 Donate link: https://www.paypal.com/donate/?hosted_button_id=F8NKC6TCASUXE
 Tags: copy paste, clipboard, media library, productivity
 Requires at least: 4.8
-Tested up to: 6.7
+Tested up to: 6.9
 Requires PHP: 7.4
-Stable tag: 2.1.3
+Stable tag: 2.1.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -58,6 +58,11 @@ Follow the standard [WordPress plugin installation procedere](https://wordpress.
 6. Plugin options (Settings > Writing)
 
 == Changelog ==
+
+= 2.1.4 =
+* Fix Image dialog: hide webp option if extension not allowed in multisite
+* Fix: Fall back to pasting if tinymce content is pasted
+* Bind debug mode to constant SCRIPT_DEBUG
 
 = 2.1.3 =
 * Bring TinyMCE activation to Editor toolbar
